@@ -7,13 +7,14 @@
 }
 
 .menu {
-    width: 30%;
+    width: 40%;
     display: flex;
     justify-content: space-around;
 }
 
 .menu li {
     font-size: 1.4rem;
+    letter-spacing: 0.15rem;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }

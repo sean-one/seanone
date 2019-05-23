@@ -8,5 +8,6 @@
   background-color: #2D3142;
   text-align: center;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+  justify-content: space-between;
 }
