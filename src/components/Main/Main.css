@@ -6,3 +6,8 @@ h1 {
     padding: 2.4rem 0;
     color: #C7EAE4;
 }
+
+.aboutMe img {
+    height: 12rem;
+    border-radius: 50%;
+}
