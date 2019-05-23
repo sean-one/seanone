@@ -59,6 +59,12 @@ h1 {
   letter-spacing: 0.4rem;
 }
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
   color: #BFC0C0;
