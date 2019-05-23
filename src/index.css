@@ -58,3 +58,10 @@ h1 {
   font-size: 5.6rem;
   letter-spacing: 0.4rem;
 }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #BFC0C0;
+  letter-spacing: 0.04rem;
+  line-height: 1.5;
+}

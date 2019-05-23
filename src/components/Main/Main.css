@@ -7,7 +7,20 @@ h1 {
     color: #C7EAE4;
 }
 
+.aboutMe {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
 .aboutMe img {
-    height: 12rem;
+    margin: 4rem;
+    height: 15rem;
     border-radius: 50%;
+}
+
+.aboutMe p {
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
 }

@@ -13,6 +13,7 @@ class Main extends Component {
                 <h1>Sean Flannigan</h1>
                 <div className="aboutMe">
                     <img src={Profile} alt="SeanOne profile" />
+                    <p>My name is Sean Flannigan and I am a Web Developer.  I have recently completed the online bootcamp, Lambda School.  I am focused on combining my last 15 years of marketing and promotions, with my new found passion for web development</p>
                 </div>
             </div>
         );
