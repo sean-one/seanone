@@ -8,10 +8,9 @@ class Header extends Component {
         return (
             <div className="headerSection">
                 <ul className="menu">
-                    <li>Home</li>
                     <li>About</li>
                     <li>Work</li>
-                    <li>Contact</li>
+                    <li>Resume</li>
                 </ul>
             </div>
         );
