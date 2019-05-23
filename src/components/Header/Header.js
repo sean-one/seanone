@@ -7,7 +7,12 @@ class Header extends Component {
     render() {
         return (
             <div className="headerSection">
-                <h1>Sean Flannigan</h1>
+                <ul className="menu">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Work</li>
+                    <li>Contact</li>
+                </ul>
             </div>
         );
     }

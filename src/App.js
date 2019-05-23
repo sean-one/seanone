@@ -10,11 +10,9 @@ import Footer from './components/Footer/footer';
 function App() {
   return (
     <div className="App">
-      <div className="backgroundBlock">
-        <Header />
-        <Main />
-        <Footer />
-      </div>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
