@@ -1,12 +1,33 @@
 .contactSection {
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 
 .socialLinks {
+    padding-top: 5.5rem;
     width: 45%;
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
     color: #BFC0C0;
+}
 
+.emailLink, .linkedInLink, .githubLink {
+    padding: 1rem;
+}
+
+.emailLink:hover {
+    color: #C7EAE4;
+    cursor: pointer;
+}
+
+.linkedInLink:hover {
+    color: #C7EAE4;
+    cursor: pointer;
+}
+
+.githubLink:hover {
+    color: #C7EAE4;
+    cursor: pointer;
 }
