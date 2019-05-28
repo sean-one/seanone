@@ -9,13 +9,13 @@ class Contact extends Component {
         return (
             <div className="contactSection">
                 <div className="socialLinks">
-                    <div className="emailLink">
+                    <div className="contactLink emailLink">
                         <FontAwesomeIcon icon="envelope" size="4x" />
                     </div>
-                    <div className="linkedInLink">
+                    <div className="contactLink linkedInLink">
                         <FontAwesomeIcon icon={['fab', 'linkedin']} size="4x" />
                     </div>
-                    <div className="githubLink">
+                    <div className="contactLink githubLink">
                         <FontAwesomeIcon icon={['fab', 'github']} size="4x" />
                     </div>
 
