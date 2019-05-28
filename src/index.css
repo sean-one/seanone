@@ -59,6 +59,12 @@ h1 {
   letter-spacing: 0.4rem;
 }
 
+h2 {
+  font-family: 'Michroma', sans-serif;
+  font-size: 3.75rem;
+  letter-spacing: 0.3rem;
+}
+
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -74,4 +80,8 @@ p {
 
 a {
   color: inherit;
+}
+
+* {
+  box-sizing: border-box;
 }

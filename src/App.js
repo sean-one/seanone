@@ -7,6 +7,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 // page sections
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
+import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/footer';
 
@@ -20,7 +21,8 @@ function App() {
     <div className="App">
       <Header />
       <div className="content">
-        <Main />
+        {/* <Main /> */}
+        <Work />
         <Contact />
       </div>
       <Footer />

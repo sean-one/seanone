@@ -1,0 +1,18 @@
+.workSection {
+    width: 100%;
+}
+
+.workSection h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin:0 auto;
+    width: 80%;
+    text-align: center;
+    color: #C7EAE4;
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
