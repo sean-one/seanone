@@ -15,8 +15,16 @@
 
 .contactLink {
     border: 1px solid #BFC0C0;
+    box-shadow: 0.3rem 0.3rem 0.5rem #BFC0C0;
     border-radius: 10%;
     margin: 0 2.5rem;
+    position: relative;
+}
+
+.contactLink:active {
+    box-shadow: none;
+    top: 0.3rem;
+    left: 0.3rem;
 }
 
 .emailLink, .linkedInLink, .githubLink {
