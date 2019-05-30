@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Monitor from '../../images/monitor.png';
 
 // styles
 import './Work.css';
@@ -11,7 +12,7 @@ class Work extends Component {
                 <div className='projectContainer'>
                     <div className="project1">
                         <div className="project1-media">
-                            {/* <img src="" alt="" /> */}
+                            <img src={Monitor} alt="" />
                         </div>
                     </div>
                     <div className="project2">
