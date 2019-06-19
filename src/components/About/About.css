@@ -1,11 +1,11 @@
-.mainBody {
+.about {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 100%;
 }
 
-.mainBody h1 {
+.about h1 {
     padding: 2.4rem 0;
     color: #C7EAE4;
 }

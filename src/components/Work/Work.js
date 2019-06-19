@@ -5,14 +5,17 @@ import Monitor from '../../images/placeholder-250.png';
 import './Work.css';
 
 class Work extends Component {
+    proSelect = (event) => {
+        console.log('click', event.srcElement)
+    }
     render() {
         return (
             <div className='workSection'>
                 <h2>Past Projects</h2>
                 <div className='projectContainer'>
-                    <div className="project project1">
+                    <div className="project project1" onClick={this.proSelect}>
                         <div className="project1-media">
-                            {/* <img src={Monitor} onMouseOver={alert('hello')} alt="project one placeholder" /> */}
+                            <img src={Monitor} alt="project one placeholder" />
                         </div>
                     </div>
                     <div className="project project2">
