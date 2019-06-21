@@ -11,11 +11,21 @@ class Lang extends Component {
                     <img src={LambdaLogo} alt="Lamda School" />
                 </div>
                 <div className='code'>
-                    <div>html</div>
-                    <div>css</div>
-                    <div>Javascript</div>
-                    <div>Python</div>
-                    <div>C</div>
+                    <div>
+                        html
+                    </div>
+                    <div>
+                        css
+                    </div>
+                    <div>
+                        javascript
+                    </div>
+                    <div>
+                        python
+                    </div>
+                    <div>
+                        nodejs
+                    </div>
                 </div>
             </div>
         );
