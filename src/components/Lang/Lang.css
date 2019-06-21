@@ -1,0 +1,27 @@
+.languages {
+    width: 100%;
+    max-width: 90rem;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.school img {
+    margin: 1rem 0;
+    height: 4vh;
+    width: auto;
+}
+
+.code {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.code div {
+    width: 40%;
+    margin: 0 1.5rem;
+    height: 1.5rem;
+}
