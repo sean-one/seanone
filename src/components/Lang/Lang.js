@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './Lang.css';
 import LambdaLogo from '../../images/Lambda_Logo_white.png';
+// import LambdaLogo from '../../images/Lambda_Logo.png';
 
 class Lang extends Component {
     render() {
@@ -12,19 +14,28 @@ class Lang extends Component {
                 </div>
                 <div className='code'>
                     <div>
-                        html
+                        <FontAwesomeIcon icon={['fab', 'html5']} size="6x" />
+                        <p>html</p>
                     </div>
                     <div>
-                        css
+                        <FontAwesomeIcon icon={['fab', 'css3-alt']} size="6x" />
+                        <p>css</p>
                     </div>
                     <div>
-                        javascript
+                        <FontAwesomeIcon icon={['fab', 'js-square']} size="6x" />
+                        <p>Javascript</p>
                     </div>
                     <div>
-                        python
+                        <FontAwesomeIcon icon={['fab', 'python']} size="6x" />
+                        <p>Python</p>
                     </div>
                     <div>
-                        nodejs
+                        <FontAwesomeIcon icon={['fab', 'node-js']} size="6x" />
+                        <p>Node JS</p>
+                    </div>
+                    <div>
+                        <span className='cText'>c</span>
+                        <p>C</p>
                     </div>
                 </div>
             </div>

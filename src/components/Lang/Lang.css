@@ -1,7 +1,8 @@
 .languages {
     width: 100%;
-    max-width: 90rem;
+    max-width: 60rem;
     padding: 2rem 0;
+    margin: 3rem 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -9,19 +10,27 @@
 
 .school img {
     margin: 1rem 0;
-    height: 4vh;
+    height: 6vh;
     width: auto;
 }
 
 .code {
+    border-top: 0.2rem solid #C7EAE4;
+    margin-top: 1.5rem;
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: flex-end;
+    color: white;
 }
 
 .code div {
-    width: 40%;
-    margin: 0 1.5rem;
-    height: 1.5rem;
+    margin: 0 2.5rem;
+    display: flex;
+    flex-direction: column;   
+}
+
+.cText {
+    font-size: 8.7rem;
+    font-family: 'Barlow Semi Condensed';
 }
