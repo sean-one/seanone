@@ -1,7 +1,13 @@
 .contactSection {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     height: 100%;
+}
+
+.contactHeader img {
+    max-width: 55rem;
+    height: auto;
+    padding-top: 2.5rem;
 }
 
 .socialLinks {

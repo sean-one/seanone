@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import Valley from '../../images/Windgarten_(31737305280).jpg';
 
 // styling
 import './Contact.css';
@@ -8,24 +9,25 @@ class Contact extends Component {
     render() {
         return (
             <div className="contactSection">
+                {/* <div className='contactHeader'>
+                    <img src={Valley} alt='coachella valley' />
+                </div> */}
                 <div className="socialLinks">
-                        <a href="mailto:ackerman.seanw@gmail.com" target="blank">
-                            <div className="contactLink emailLink">
-                                <FontAwesomeIcon icon="envelope" size="4x" />
-                            </div>
-                        </a>
-                        <a href="https://www.linkedin.com/in/seanone-760" target="blank">
-                            <div className="contactLink linkedInLink">
-                                <FontAwesomeIcon icon={['fab', 'linkedin']} size="4x" />
-                            </div>
-                        </a>
-                        <a href="https://www.github.com/sean-one" target="blank">
-                            <div className="contactLink githubLink">
-                                <FontAwesomeIcon icon={['fab', 'github']} size="4x" />
-                            </div>
-                        </a>
-
-
+                    <a href="mailto:ackerman.seanw@gmail.com" target="blank">
+                        <div className="contactLink emailLink">
+                            <FontAwesomeIcon icon="envelope" size="4x" />
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/seanone-760" target="blank">
+                        <div className="contactLink linkedInLink">
+                            <FontAwesomeIcon icon={['fab', 'linkedin']} size="4x" />
+                        </div>
+                    </a>
+                    <a href="https://www.github.com/sean-one" target="blank">
+                        <div className="contactLink githubLink">
+                            <FontAwesomeIcon icon={['fab', 'github']} size="4x" />
+                        </div>
+                    </a>
                 </div>
             </div>
         );
