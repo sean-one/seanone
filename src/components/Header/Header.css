@@ -1,4 +1,4 @@
-.headerSection {
+.fullHeader {
     width: 100%;
     background-color: #2A497F;
     height: 4.5rem;
@@ -7,8 +7,18 @@
     align-items: center;
 }
 
+
+.container {
+    width: 100%;
+    max-width: 90rem;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .menu {
-    width: 40%;
+    width: 45%;
     display: flex;
     justify-content: space-around;
 }
@@ -17,5 +27,7 @@
     font-size: 1.4rem;
     letter-spacing: 0.15rem;
     font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+    color: #C7EAE4;
+    text-transform: uppercase;
+    font-weight: 700;
 }

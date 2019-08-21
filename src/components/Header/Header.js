@@ -7,12 +7,14 @@ import './Header.css';
 class Header extends Component {
     render() {
         return (
-            <div className="headerSection">
-                <ul className="menu">
-                    <Link to='/about'><li>About</li></Link>
-                    <Link to='/work'><li>Work</li></Link>
-                    <Link to='/contact'><li>Contact</li></Link>
-                </ul>
+            <div className="fullHeader">
+                <div className="container">
+                    <ul className="menu">
+                        <Link to='/about'><li>About</li></Link>
+                        <Link to='/work'><li>Work</li></Link>
+                        <Link to='/contact'><li>Contact</li></Link>
+                    </ul>
+                </div>
             </div>
         );
     }

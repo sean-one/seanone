@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Monitor from '../../images/placeholder-250.png';
+import Placeholder from '../../images/workPlaceholder.png';
 
 // styles
 import './Work.css';
 
 class Work extends Component {
     proSelect = (e) => {
-        console.log('click', e)
+        console.log(e.target.id)
+        
     }
     render() {
         return (
@@ -14,13 +15,7 @@ class Work extends Component {
                 <h2>Past Projects</h2>
                 <div className='projectContainer'>
                     <div className="project project1" onClick={(e) => this.proSelect(e)}>
-                        <img src={Monitor} alt="project one placeholder" />
-                    </div>
-                    <div className="project project2">
-                        <img src={Monitor} alt="project two placeholder" />
-                    </div>
-                    <div className="project project3">
-                        <img src={Monitor} alt="project three placeholder" />
+                        <img id='lambdaUI' src={Placeholder} alt='Lambda Sprint Challenge - User Interactions' />
                     </div>
                 </div>
             </div>
