@@ -11,8 +11,6 @@
 .content {
   width: 100%;
   max-width: 90rem;
-  border-right: 0.01rem solid #C7EAE4;
-  border-left: 0.01rem solid #C7EAE4;
   height: 100%;
   display: flex;
   flex-direction: column;

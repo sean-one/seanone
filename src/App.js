@@ -8,7 +8,6 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import Work from './components/Work/Work';
-import Lang from './components/Lang/Lang';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { Route } from 'react-router-dom';
@@ -28,7 +27,6 @@ function App() {
         <Route path='/work' component={Work} />
         <Route path='/contact' component={Contact} />
       </div>
-      <Lang />
       <Footer />
     </div>
   );
