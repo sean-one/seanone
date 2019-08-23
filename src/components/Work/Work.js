@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+
+// components
+import Lang from '../Lang/Lang';
+
+// images
 import LambdaUI from '../../images/lambdaUI.png';
 import LambdaTimes from '../../images/lambdaTimes.gif';
 
@@ -31,6 +36,7 @@ class Work extends Component {
                             <a href='https://github.com/sean-one/Sprint-Challenge--User-Interface' target='blank'>this be the link yo</a>
                         </div>
                     </div>
+                    <Lang />
 
                 </div>
             </div>

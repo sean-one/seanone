@@ -1,8 +1,6 @@
 .languages {
     width: 100%;
-    max-width: 60rem;
-    padding: 2rem 0;
-    margin: 3rem 0;
+    max-width: 90rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -15,8 +13,8 @@
 }
 
 .code {
-    border-top: 0.2rem solid #C7EAE4;
-    margin-top: 1.5rem;
+    /* border-top: 0.2rem solid #C7EAE4; */
+    /* margin-top: 1.5rem; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -30,7 +28,9 @@
     flex-direction: column;   
 }
 
-.cText {
-    font-size: 8.7rem;
-    font-family: 'Barlow Semi Condensed';
+.langIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

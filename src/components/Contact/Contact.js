@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import Valley from '../../images/Windgarten_(31737305280).jpg';
 
 // styling
 import './Contact.css';
@@ -9,25 +7,30 @@ class Contact extends Component {
     render() {
         return (
             <div className="contactSection">
-                {/* <div className='contactHeader'>
-                    <img src={Valley} alt='coachella valley' />
-                </div> */}
-                <div className="socialLinks">
-                    <a href="mailto:ackerman.seanw@gmail.com" target="blank">
-                        <div className="contactLink emailLink">
-                            <FontAwesomeIcon icon="envelope" size="4x" />
-                        </div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/seanone-760" target="blank">
-                        <div className="contactLink linkedInLink">
-                            <FontAwesomeIcon icon={['fab', 'linkedin']} size="4x" />
-                        </div>
-                    </a>
-                    <a href="https://www.github.com/sean-one" target="blank">
-                        <div className="contactLink githubLink">
-                            <FontAwesomeIcon icon={['fab', 'github']} size="4x" />
-                        </div>
-                    </a>
+                <div className='contactText'>
+                    <h2>Lets build something!</h2>
+                    <p>Do you have an app idea or a business that needs a website.  Contact me via the form or give me a call at (760) 262-4108.</p>
+                </div>
+                <div className='contactForm'>
+                    <form>
+                        <label>
+                            Name:<br/>
+                            <input type='text' name='name' /><br />
+                        </label>
+                        <label>
+                            Email:<br />
+                            <input type='text' name='email' /><br />
+                        </label>
+                        <label>
+                            Phone:<br />
+                            <input type='text' name='phone' /><br />
+                        </label>
+                        <label>
+                            Message:<br />
+                            <textarea name='message' rows='10' cols='30' /><br />
+                        </label>
+                        <input type="submit" value="Submit" /><br />
+                    </form>
                 </div>
             </div>
         );
