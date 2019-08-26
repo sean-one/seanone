@@ -78,6 +78,11 @@ p {
   line-height: 1.5;
 }
 
+input, textarea {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
 a {
   text-decoration: none;
   color: inherit;

@@ -1,0 +1,18 @@
+.contactForm {
+    width: 100%;
+    text-align: left;
+}
+
+.contactForm p {
+    font-size: 1.6rem;
+    padding-top: 0.5rem;
+}
+
+.formInput {
+    color: #C7EAE4;
+    font-size: 1.4rem;
+    width: 100%;
+    background-color: #2D3142;
+    padding: 0.5rem;
+    border: 0.02rem solid white;
+}
