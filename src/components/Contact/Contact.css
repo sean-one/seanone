@@ -8,9 +8,25 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+}
+
+.contactText {
+    width: 60%;
+}
+
+.contactWrapper {
+    width: 40%;
 }
 
 .contactText {
     text-align: left;
+}
+
+.contactText h2 {
+    color: #C7EAE4;
+    padding: 2rem 0 3.5rem;
+}
+
+.contactText p {
+    font-size: 1.6rem;
 }

@@ -7,14 +7,21 @@
     align-items: center;
 }
 
-
 .container {
     width: 100%;
     max-width: 90rem;
     height: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+}
+
+.name p {
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #C7EAE4;
+    text-transform: uppercase;
 }
 
 .menu {

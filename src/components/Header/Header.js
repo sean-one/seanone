@@ -9,6 +9,9 @@ class Header extends Component {
         return (
             <div className="fullHeader">
                 <div className="container">
+                    <div className='name'>
+                        <p>Sean Ackerman</p>
+                    </div>
                     <ul className="menu">
                         <Link to='/about'><li>About</li></Link>
                         <Link to='/work'><li>Work</li></Link>

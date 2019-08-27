@@ -16,3 +16,12 @@
     padding: 0.5rem;
     border: 0.02rem solid white;
 }
+
+.formButton {
+    width: 30%;
+    margin-top: 1rem;
+    background-color: #2D3142;
+    color: #C7EAE4;
+    font-weight: bold;
+    border: 0.02rem solid white;
+}
