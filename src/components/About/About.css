@@ -21,10 +21,17 @@
     color: #C7EAE4;
 }
 
+.title {
+    border-bottom: 0.02rem solid #C7EAE4;
+    padding-bottom: 1.6rem;
+}
+
 .aboutMe {
-    margin: 0 auto;
-    width: 80%;
+    margin: 2rem 0;
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+    text-align: left;
 }
 
 .aboutMe img {
@@ -36,5 +43,6 @@
 .aboutMe p {
     font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
     align-self: center;
 }
