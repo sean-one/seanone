@@ -21,9 +21,9 @@ class Work extends Component {
                             <img id='lambdaUI' src={LambdaUI} alt='Lambda Sprint Challenge - User Interactions' />
                         </div>
                         <div className='projectInfo'>
-                            <h3>Lambda User Interactions Sprint (School Project)</h3>
-                            <p>Magna aute exercitation fugiat deserunt sit proident laborum in. Do ut aliqua aliquip pariatur reprehenderit. Esse officia sit consectetur consequat Lorem consectetur aute ea est occaecat aute et. Dolore aliquip magna magna mollit occaecat consequat deserunt culpa.</p>
-                            <a href='https://github.com/sean-one/Sprint-Challenge-Lambda-Times-React' target='blank'>this be the link yo</a>
+                            <h3>User Interface Sprint (School Project)</h3>
+                            <p>In our User Interface sprint, we were tasked with creating a responsive website with mobile, tablet and desktop break points.  During this project we were also expected to create a pixel perfect copy of the provided design files.</p>
+                            <a href='https://github.com/sean-one/Sprint-Challenge--User-Interface' target='blank'>this be the link yo</a>
                         </div>
                     </div>
                     <div className="project">
@@ -32,8 +32,8 @@ class Work extends Component {
                         </div>
                         <div className='projectInfo'>
                             <h3>Lambda Times (School Project)</h3>
-                            <p>Magna aute exercitation fugiat deserunt sit proident laborum in. Do ut aliqua aliquip pariatur reprehenderit. Esse officia sit consectetur consequat Lorem consectetur aute ea est occaecat aute et. Dolore aliquip magna magna mollit occaecat consequat deserunt culpa.</p>
-                            <a href='https://github.com/sean-one/Sprint-Challenge--User-Interface' target='blank'>this be the link yo</a>
+                            <p>In order to further our experience in React.  During the Lambda Times sprint we focus on functional components, lifecycles, checking props & styling components dynamically.</p>
+                            <a href='https://github.com/sean-one/Sprint-Challenge-Lambda-Times-React' target='blank'>this be the link yo</a>
                         </div>
                     </div>
                     <Lang />

@@ -49,6 +49,10 @@
     color: #BFC0C0;
 }
 
+.projectInfo h3 {
+    color: #C7EAE4;
+}
+
 .projectInfo p {
     margin: 2rem 0;
     text-align: center;

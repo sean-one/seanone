@@ -8,26 +8,36 @@ class Lang extends Component {
         return (
             <div className='languages'>
                 <div className='code'>
-                    <div className='langIcon'>
-                        <FontAwesomeIcon icon={['fab', 'html5']} size="5x" />
-                        <p>html</p>
-                    </div>
-                    <div className='langIcon'>
-                        <FontAwesomeIcon icon={['fab', 'css3-alt']} size="5x" />
-                        <p>css</p>
-                    </div>
-                    <div className='langIcon'>
-                        <FontAwesomeIcon icon={['fab', 'js-square']} size="5x" />
-                        <p>Javascript</p>
-                    </div>
-                    <div className='langIcon'>
-                        <FontAwesomeIcon icon={['fab', 'python']} size="5x" />
-                        <p>Python</p>
-                    </div>
-                    <div className='langIcon'>
-                        <FontAwesomeIcon icon={['fab', 'node-js']} size="5x" />
-                        <p>Node JS</p>
-                    </div>
+                    <a href='https://github.com/sean-one?utf8=%E2%9C%93&tab=repositories&q=&type=&language=html' target='blank'>
+                        <div className='langIcon'>
+                            <FontAwesomeIcon icon={['fab', 'html5']} size="5x" />
+                            <p>html</p>
+                        </div>
+                    </a>
+                    <a href='https://github.com/sean-one?utf8=%E2%9C%93&tab=repositories&q=&type=&language=css' target='blank'>
+                        <div className='langIcon'>
+                            <FontAwesomeIcon icon={['fab', 'css3-alt']} size="5x" />
+                            <p>css</p>
+                        </div>
+                    </a>
+                    <a href='https://github.com/sean-one?utf8=%E2%9C%93&tab=repositories&q=&type=&language=javascript' target='blank'>
+                        <div className='langIcon'>
+                            <FontAwesomeIcon icon={['fab', 'js-square']} size="5x" />
+                            <p>Javascript</p>
+                        </div>
+                    </a>
+                    <a href='https://github.com/sean-one?utf8=%E2%9C%93&tab=repositories&q=&type=&language=python' target='blank'>
+                        <div className='langIcon'>
+                            <FontAwesomeIcon icon={['fab', 'python']} size="5x" />
+                            <p>Python</p>
+                        </div>
+                    </a>
+                    <a href='https://github.com/sean-one?utf8=%E2%9C%93&tab=repositories&q=&type=&language=c' target='blank'>
+                        <div className='langIcon'>
+                            <FontAwesomeIcon icon={['fab', 'node-js']} size="5x" />
+                            <p>Node JS</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         );
