@@ -1,0 +1,19 @@
+.socialWrapper {
+    display: flex;
+    justify-content: space-around;
+    color: #C7EAE4;
+}
+
+.instagram, .github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.username p {
+    font-size: 1.8rem;
+    padding-left: 1rem;
+}
+
