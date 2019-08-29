@@ -16,3 +16,10 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width: 500px) {
+  .content {
+    width: 100%;
+    max-width: 100%;
+  }
+}

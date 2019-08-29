@@ -45,3 +45,9 @@
     text-align: justify;
     align-self: center;
 }
+
+@media (max-width: 500px) {
+    .aboutMe img {
+        display: none;
+    }
+}
