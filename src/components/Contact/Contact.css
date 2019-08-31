@@ -30,3 +30,18 @@
 .contactText p {
     font-size: 1.6rem;
 }
+
+@media (max-width: 500px) {
+    .contactSection {
+        flex-direction: column;
+    }
+
+    .contactText h2 {
+        padding: 1rem 0;
+    }
+
+    .contactText, .contactWrapper {
+        width: 100%;
+    }
+
+}
