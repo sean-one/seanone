@@ -50,4 +50,8 @@
     .aboutMe img {
         display: none;
     }
+
+    .aboutContainer {
+        margin-top: 2rem;
+    }
 }

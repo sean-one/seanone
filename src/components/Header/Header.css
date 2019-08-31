@@ -29,6 +29,25 @@
     display: none;
 }
 
+.mobileMenuWrapper {
+    color: #C7EAE4;
+    position: absolute;
+    width: 100%;
+    top: 4rem;
+    background: #2A497F;
+    display: none;
+}
+
+.mobileMenu li {
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.15rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 0.01rem solid #BFC0C0;
+}
+
 .menu {
     width: 45%;
     display: flex;

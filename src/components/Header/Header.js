@@ -17,6 +17,13 @@ class Header extends Component {
                     <div className='bars'>
                         <FontAwesomeIcon icon={faAlignJustify} size="3x" />
                     </div>
+                    <div className='mobileMenuWrapper'>
+                        <ul className='mobileMenu'>
+                            <Link to='/about'><li>About</li></Link>
+                            <Link to='/work'><li>Work</li></Link>
+                            <Link to='/contact'><li>Contact</li></Link>
+                        </ul>
+                    </div>
                     <ul className="menu">
                         <Link to='/about'><li>About</li></Link>
                         <Link to='/work'><li>Work</li></Link>
