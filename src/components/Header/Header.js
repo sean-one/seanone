@@ -7,6 +7,11 @@ import { faAlignJustify } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 class Header extends Component {
+
+    toggleMenu = (event) => {
+        console.log('click', event)
+    }
+
     render() {
         return (
             <div className="fullHeader">
@@ -14,10 +19,10 @@ class Header extends Component {
                     <div className='name'>
                         <p>Sean Ackerman</p>
                     </div>
-                    <div className='bars'>
+                    <div className='bars' onClick={this.toggleMenu} >
                         <FontAwesomeIcon icon={faAlignJustify} size="3x" />
                     </div>
-                    <div className='mobileMenuWrapper'>
+                    <div className='mobileMenuWrapper activeMenu'>
                         <ul className='mobileMenu'>
                             <Link to='/about'><li>About</li></Link>
                             <Link to='/work'><li>Work</li></Link>
