@@ -7,15 +7,7 @@
     align-items: flex-start;
 }
 
-.school img {
-    margin: 1rem 0;
-    height: 6vh;
-    width: auto;
-}
-
 .code {
-    /* border-top: 0.2rem solid #C7EAE4; */
-    /* margin-top: 1.5rem; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -34,4 +26,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 500px) {
+    .languages {
+        max-width: 50rem;
+    }
+
+    .code {
+        justify-content: space-around;
+    }
+
+    .code div {
+        margin: 0 1rem;
+    }
 }

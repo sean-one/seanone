@@ -57,3 +57,35 @@
     margin: 2rem 0;
     text-align: center;
 }
+
+@media (max-width: 500px) {
+    .workSection h2 {
+        padding: 1rem 0 1rem;
+    }
+
+    .project {
+        flex-direction: column;
+        margin: 1.5rem 0;
+    }
+    
+    .project:nth-child(even) {
+        flex-direction: column;
+
+    }
+
+    .projectImage {
+        width: 100%;
+    }
+
+    .projectImage img {
+        width: 80%;
+    }
+
+    .notActive {
+        display: none;
+    }
+
+    .projectInfo p {
+        margin: 1rem 0;
+    }
+}
