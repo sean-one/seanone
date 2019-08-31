@@ -17,3 +17,13 @@
     padding-left: 1rem;
 }
 
+@media (max-width: 500px) {
+    .instagram, .github {
+        padding: 0;
+    }
+
+    .username {
+        display: none;
+    }
+}
+

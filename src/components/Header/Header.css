@@ -24,6 +24,11 @@
     text-transform: uppercase;
 }
 
+.bars {
+    color: #C7EAE4;
+    display: none;
+}
+
 .menu {
     width: 45%;
     display: flex;
@@ -37,4 +42,19 @@
     color: #C7EAE4;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+@media (max-width: 500px) {
+    .menu {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+        padding-right: 0.75rem;
+    }
+
+    .name {
+        padding-left: 0.75rem;
+    }
 }

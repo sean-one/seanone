@@ -1,7 +1,6 @@
 import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 // components
 import Header from './components/Header/Header';
@@ -14,7 +13,7 @@ import { Route } from 'react-router-dom';
 // styling
 import './App.css';
 
-library.add(fab, faEnvelope);
+library.add(fab);
 
 function App() {
   return (
