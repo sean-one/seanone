@@ -9,7 +9,9 @@ import './Header.css';
 class Header extends Component {
 
     toggleMenu = (event) => {
-        console.log('click', event)
+        const mobileMenu = document.getElementById('mobileWrap');
+        mobileMenu.classList.toggle('activeMenu');
+        // console.log('click', mobileMenu)
     }
 
     render() {
@@ -22,11 +24,11 @@ class Header extends Component {
                     <div className='bars' onClick={this.toggleMenu} >
                         <FontAwesomeIcon icon={faAlignJustify} size="3x" />
                     </div>
-                    <div className='mobileMenuWrapper activeMenu'>
+                    <div id='mobileWrap' className='mobileMenuWrapper'>
                         <ul className='mobileMenu'>
-                            <Link to='/about'><li>About</li></Link>
-                            <Link to='/work'><li>Work</li></Link>
-                            <Link to='/contact'><li>Contact</li></Link>
+                            <Link to='/about'><li onClick={this.toggleMenu}>About</li></Link>
+                            <Link to='/work'><li onClick={this.toggleMenu}>Work</li></Link>
+                            <Link to='/contact'><li onClick={this.toggleMenu}>Contact</li></Link>
                         </ul>
                     </div>
                     <ul className="menu">
