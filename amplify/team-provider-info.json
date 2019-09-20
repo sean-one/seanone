@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "seanone-dev-20190920000732-authRole",
+            "UnauthRoleArn": "arn:aws:iam::034784609609:role/seanone-dev-20190920000732-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::034784609609:role/seanone-dev-20190920000732-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "seanone-dev-20190920000732-deployment",
+            "UnauthRoleName": "seanone-dev-20190920000732-unauthRole",
+            "StackName": "seanone-dev-20190920000732",
+            "StackId": "arn:aws:cloudformation:us-east-1:034784609609:stack/seanone-dev-20190920000732/506cb970-db75-11e9-bd78-0a4fdb0c1726"
+        }
+    }
+}
