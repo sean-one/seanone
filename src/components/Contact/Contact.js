@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // components
-import Form from './Form/Form';
+import Form from './Form/ContactForm';
 
 // styling
 import './Contact.css';
