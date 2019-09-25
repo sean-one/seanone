@@ -1,7 +1,9 @@
 .contactSection {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     height: 100%;
+    margin-top: 15%;
 }
 
 .contactText, .contactWrapper{
@@ -34,6 +36,8 @@
 @media (max-width: 500px) {
     .contactSection {
         flex-direction: column;
+        justify-content: space-around;
+        margin-top: 5%;
     }
 
     .contactText h2 {
