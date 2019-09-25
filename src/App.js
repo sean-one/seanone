@@ -7,7 +7,7 @@ import Header from './components/Header/Header';
 import About from './components/About/About';
 import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/footer';
 import { Route } from 'react-router-dom';
 
 // styling
