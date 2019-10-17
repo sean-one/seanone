@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import { API } from 'aws-amplify';
 
 // styling
 import './ContactForm.css';
@@ -11,7 +12,18 @@ function ContactForm() {
 
     const handleSubmit = e => {
         e.preventDefault();
-        console.log(name, email, phone, message);
+        // const formData = {
+        //     name,
+        //     email,
+        //     phone,
+        //     message
+        // }
+        // async function postData(formData) {
+        //     return await API.post('mailme', '/contact-us', formData)
+
+        // }
+        // postData();
+        console.log(formData);
         setName('');
         setEmail('');
         setPhone('');
