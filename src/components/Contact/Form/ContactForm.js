@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { API } from 'aws-amplify';
 
 // styling
 import './ContactForm.css';
@@ -12,21 +11,7 @@ function ContactForm() {
 
     const handleSubmit = e => {
         e.preventDefault();
-        let apiName = 'ampmailme';
-        let path = '/contact-us';
-        let formData = {
-            body: {
-                name,
-                email,
-                phone,
-                message
-            }
-        }
-        API.post(apiName, path, formData).then(response => {
-            console.log(response)
-        }).catch(error => {
-            console.log(error.response)
-        })
+        console.log(e);
         setName('');
         setEmail('');
         setPhone('');
