@@ -8,8 +8,6 @@
     "@fortawesome/free-brands-svg-icons": "^5.8.2",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "aws-amplify": "^1.1.40",
-    "aws-amplify-react": "^2.4.4",
     "axios": "^0.19.0",
     "eslint-utils": "1.4.1",
     "react": "^16.8.6",
