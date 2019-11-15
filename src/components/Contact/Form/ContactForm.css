@@ -25,3 +25,9 @@
     font-weight: bold;
     border: 0.02rem solid white;
 }
+
+.errorMsg {
+    font-size: 1.1rem;
+    padding: 0.2rem 0;
+    color: #C7EAE4;
+}

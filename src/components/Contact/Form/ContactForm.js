@@ -19,7 +19,7 @@ function ContactForm() {
         switch(e.name) {
             case 'formName':
                 if (e.value.length < 1) {
-                    setNameError('Please be sure to include your name');
+                    setNameError(' * invalid name');
                     break;
                 } else {
                     setNameError('');
@@ -27,7 +27,7 @@ function ContactForm() {
                 }
             case 'formMessage':
                 if (e.value.length < 1) {
-                    setMessageError('Please include a brief project description');
+                    setMessageError(' * invalid message');
                     break;
                 } else {
                     setMessageError('');
@@ -35,7 +35,7 @@ function ContactForm() {
                 }
             case 'formEmail':
                 if (!e.value.match(/\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b/gi)) {
-                    setEmailError('Please include a valid email address');
+                    setEmailError(' * please include email');
                     break;
                 } else {
                     setEmailError('');
@@ -43,7 +43,7 @@ function ContactForm() {
                 }
             case 'formPhone':
                 if (!e.value.match(/(?:\d{1}\s)?\(?(\d{3})\)?-?\s?(\d{3})-?\s?(\d{4})/g)) {
-                    setPhoneError('Please include a valid phone number');
+                    setPhoneError(' * please include phone');
                     break;
                 } else {
                     setPhoneError('');
@@ -55,9 +55,17 @@ function ContactForm() {
         }
     }
 
+    const checkEmpty = () => {
+        if (name && email && phone && message) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     const handleSubmit = e => {
         e.preventDefault();
-        if (nameError === '' && emailError === '' && phoneError === '' && messageError === '') {
+        if (nameError === '' && emailError === '' && phoneError === '' && messageError === '' && checkEmpty()) {
             setSubmitError('');
             Axios({
                 method : 'post',
@@ -80,7 +88,7 @@ function ContactForm() {
 
     return (
         <form className='contactForm' onSubmit={handleSubmit} >
-            <p>Name:</p>
+            <p>Name:&nbsp;&nbsp;<span className='errorMsg'>{nameError}</span></p>
             <input 
                 className='formInput'
                 type='text'
@@ -90,9 +98,8 @@ function ContactForm() {
                 onChange={e => setName(e.target.value)}
                 onBlur={e => validate(e.target)}
             />
-            <div>{nameError}</div>
             <br />
-            <p>Email:</p>
+            <p>Email:&nbsp;&nbsp;<span className='errorMsg'>{emailError}</span></p>
             <input
                 className='formInput'
                 type='text'
@@ -102,9 +109,8 @@ function ContactForm() {
                 onChange={e => setEmail(e.target.value)}
                 onBlur={e => validate(e.target)}
             />
-            <div>{emailError}</div>
             <br />
-            <p>Phone:</p>
+            <p>Phone:&nbsp;&nbsp;<span className='errorMsg'>{phoneError}</span></p>
             <input
                 className='formInput'
                 type='text'
@@ -114,9 +120,8 @@ function ContactForm() {
                 onChange={e => setPhone(e.target.value)}
                 onBlur={e => validate(e.target)}
             />
-            <div>{phoneError}</div>
             <br />
-            <p>Message:</p>
+            <p>Message:&nbsp;&nbsp;<span className='errorMsg'>{messageError}</span></p>
             <textarea
                 className='formInput'
                 name='formMessage'
@@ -128,7 +133,8 @@ function ContactForm() {
                 onBlur={e => validate(e.target)}
             />
             <br />
-            <input className='formButton' type="submit" value="Submit" /><div>{submitError}</div><br />
+            <div className='errorMsg'>{submitError}</div>
+            <input className='formButton' type="submit" value="Submit" /><br />
         </form>
     );
 
