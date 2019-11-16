@@ -76,13 +76,17 @@ function ContactForm() {
                     phone,
                     message
                 }
+            }).then(res => {
+                setSubmitError('Thank you')
+                setName('');
+                setEmail('');
+                setPhone('');
+                setMessage('');
+            }).catch(err => {
+                setSubmitError('Please try again');
             });
-            setName('');
-            setEmail('');
-            setPhone('');
-            setMessage('');
         } else {
-            setSubmitError('Please be sure to complete all fields')
+            setSubmitError('Please be sure to complete all fields');
         }
     }
 
