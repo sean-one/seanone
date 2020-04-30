@@ -11,7 +11,11 @@
     "axios": "^0.19.0",
     "eslint-utils": "1.4.1",
     "handlebars": "4.3.0",
+<<<<<<< HEAD
     "minimist": "0.2.1",
+=======
+    "minimist": "^1.2.2",
+>>>>>>> 18f80bb58d6b27c41497d3d1ffe6b6aa3cf3282f
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
