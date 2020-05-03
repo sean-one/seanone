@@ -14,7 +14,7 @@ class Work extends Component {
     render() {
         return (
             <div className='workSection'>
-                <h2>Past Projects</h2>
+                <h1>Past Projects</h1>
                 <div className='projectContainer'>
                     <div className="project">
                         <div className='projectImage'>
