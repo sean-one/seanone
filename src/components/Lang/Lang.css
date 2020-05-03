@@ -12,7 +12,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    color: #C7EAE4;
 }
 
 .code div {
@@ -26,6 +25,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 @media (max-width: 500px) {
@@ -35,6 +35,10 @@
 
     .code {
         justify-content: space-around;
+    }
+
+    .code p {
+        display: none;
     }
 
     .code div {

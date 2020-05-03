@@ -54,33 +54,39 @@ html {
 }
 
 /* some attitional additions */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: 'Michroma', sans-serif;
-  letter-spacing: 0.3rem;
-}
-h1 {
-  font-size: 2.5rem;
-  padding: 1.5rem 0;
-  /* letter-spacing: 0.4rem; */
+  letter-spacing: 0.2rem;
   color: #C7EAE4;
 }
 
+h1 {
+  font-size: 2.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 0.02rem solid #C7EAE4;
+}
+
 h2 {
-  /* font-size: 3.75rem; */
   font-size: 2rem;
-  /* letter-spacing: 0.3rem; */
 }
 
 h3 {
-  /* font-family: 'Montserrat', sans-serif; */
   font-size: 1.8rem;
   letter-spacing: 0.2rem;
-  /* font-size: 2rem; */
+  padding: 2rem 0;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  color: #ffffff;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
+  text-align: justify;
   color: #BFC0C0;
   letter-spacing: 0.04rem;
   line-height: 1.5;
@@ -92,6 +98,7 @@ input, textarea {
 }
 
 a {
+  color: #BFC0C0;
   text-decoration: none;
   color: inherit;
 }
@@ -102,9 +109,19 @@ a {
 
 @media (max-width: 500px) {
   h1 {
-    font-size: 2rem;
-    padding-bottom: 0;
-    letter-spacing: 0.1rem;
+    font-size: 1.8rem;
+    padding: 0;
+    letter-spacing: 0.15rem;
     line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    padding: 0.75rem 0;
+  }
+
+  p {
+    font-size: 1.4rem;
+    letter-spacing: 0.02rem;
   }
 }

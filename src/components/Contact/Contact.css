@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: flex-start;
     height: 100%;
-    margin-top: 5%;
 }
 
 .contactText, .contactWrapper{
@@ -14,11 +13,12 @@
 
 .contactText {
     width: 60%;
+    padding: 0 2.5rem;
 }
 
 .contactWrapper {
     width: 40%;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
 }
 
 .contactText {
@@ -26,18 +26,17 @@
 }
 
 .contactText h2 {
-    color: #C7EAE4;
     padding: 2rem 0 3.5rem;
-}
-
-.contactText p {
-    font-size: 1.6rem;
 }
 
 @media (max-width: 500px) {
     .contactSection {
         flex-direction: column;
         justify-content: space-around;
+    }
+
+    .contactText {
+        padding: 0;
     }
 
     .contactText h2 {

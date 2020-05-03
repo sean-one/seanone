@@ -15,7 +15,7 @@ class About extends Component {
             <div className="about">
                 <div className="aboutContainer">
                     <div className='title'>
-                        <h1>Web Developer | California, USA</h1>
+                        <h1>Web Developer / California</h1>
                     </div>
                     <div className="aboutMe">
                         <img src={Profile} alt="SeanOne profile" />

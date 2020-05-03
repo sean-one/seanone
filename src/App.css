@@ -9,13 +9,17 @@
 }
 
 .content {
-  padding:4.5rem 1.5rem 2.5rem 1.5rem;
+  padding: 7rem 1.5rem 2.5rem 1.5rem;
   width: 100%;
   max-width: 90rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   overflow: auto;
+}
+
+.site-icons {
+  color: #C7EAE4;
 }
 
 @media (max-width: 500px) {

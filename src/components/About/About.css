@@ -5,18 +5,8 @@
     height: 100%;
 }
 
-.aboutContainer {
-    margin-top: 5.5rem;
-}
-
 .aboutContainer h1 {
-    /* margin:0 auto; */
     text-align: left;
-}
-
-.title {
-    border-bottom: 0.02rem solid #C7EAE4;
-    padding-bottom: 1.6rem;
 }
 
 .aboutMe {
@@ -34,16 +24,11 @@
 }
 
 .aboutMe p {
-    text-align: justify;
     align-self: center;
 }
 
 @media (max-width: 500px) {
     .aboutMe img {
         display: none;
-    }
-
-    .aboutContainer {
-        margin-top: 2rem;
     }
 }

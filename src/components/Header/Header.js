@@ -19,22 +19,22 @@ class Header extends Component {
             <div className="fullHeader">
                 <div className="container">
                     <div className='name'>
-                        <p>Sean Ackerman</p>
+                        <h2>Sean Ackerman</h2>
                     </div>
                     <div className='bars' onClick={this.toggleMenu} >
-                        <FontAwesomeIcon icon={faAlignJustify} size="3x" />
+                        <FontAwesomeIcon className='site-icons' icon={faAlignJustify} size="3x" />
                     </div>
                     <div id='mobileWrap' className='mobileMenuWrapper'>
                         <ul className='mobileMenu'>
-                            <Link to='/about'><li onClick={this.toggleMenu}>About</li></Link>
-                            <Link to='/work'><li onClick={this.toggleMenu}>Work</li></Link>
-                            <Link to='/contact'><li onClick={this.toggleMenu}>Contact</li></Link>
+                            <Link className='mobile-list-styling' to='/about'><li onClick={this.toggleMenu}>About</li></Link>
+                            <Link className='mobile-list-styling' to='/work'><li onClick={this.toggleMenu}>Work</li></Link>
+                            <Link className='mobile-list-styling' to='/contact'><li onClick={this.toggleMenu}>Contact</li></Link>
                         </ul>
                     </div>
                     <ul className="menu">
-                        <Link to='/about'><li>About</li></Link>
-                        <Link to='/work'><li>Work</li></Link>
-                        <Link to='/contact'><li>Contact</li></Link>
+                        <Link className='mobile-list-styling' to='/about'><li>About</li></Link>
+                        <Link className='mobile-list-styling' to='/work'><li>Work</li></Link>
+                        <Link className='mobile-list-styling' to='/contact'><li>Contact</li></Link>
                     </ul>
                 </div>
             </div>
