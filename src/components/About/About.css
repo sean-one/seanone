@@ -5,19 +5,13 @@
     height: 100%;
 }
 
-.about h1 {
-    padding: 2.4rem 0;
-    color: #C7EAE4;
-}
-
 .aboutContainer {
     margin-top: 5.5rem;
 }
 
-.aboutContainer h3 {
-    margin:0 auto;
+.aboutContainer h1 {
+    /* margin:0 auto; */
     text-align: left;
-    color: #C7EAE4;
 }
 
 .title {
@@ -40,8 +34,6 @@
 }
 
 .aboutMe p {
-    font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
     text-align: justify;
     align-self: center;
 }

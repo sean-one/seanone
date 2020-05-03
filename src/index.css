@@ -56,8 +56,10 @@ html {
 /* some attitional additions */
 h1 {
   font-family: 'Michroma', sans-serif;
-  font-size: 5.6rem;
+  font-size: 2.5rem;
+  padding: 1.5rem 0;
   letter-spacing: 0.4rem;
+  color: #C7EAE4;
 }
 
 h2 {
@@ -74,6 +76,7 @@ h3 {
 
 p {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
   color: #BFC0C0;
   letter-spacing: 0.04rem;
   line-height: 1.5;
@@ -91,4 +94,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+    padding-bottom: 0;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+  }
 }
